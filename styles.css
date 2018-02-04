@@ -1,1 +1,50 @@
-/* Styles for the Advanced Markup assignment. */
+nav ul li {
+  display: inline;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;
+  background-color: snow;
+  margin: 20px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.poem {
+  font-size: 250%;
+  font-style: italic;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+}
+
+.bio-photo img {
+  width: 250px;
+  float: left;
+  margin: 10px 30px 10px 40px;
+  font-size: 0.9em;
+  border-style: solid;
+  border-width: 8px;
+  border-color: snow;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse;
+}
+
+td {
+  text-align: center;
+}
